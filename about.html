@@ -1,11 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us - IceCream</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      .hover-button {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .hover-button:hover {
+        background-color: #2a4daf; /* Darker green on hover */
+      }
+
+      .hero-image {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+      }
+
+      .about-section {
+        background-color: #f8f9fa;
+        padding: 50px 0;
+      }
+
+      .about-text {
+        padding: 20px;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation Starts -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <p class="fs-4 fw-bold">dhi-iceCream!!</p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <p class="fs-5">Home</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">
+                <p class="fs-5">About</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">
+                <p class="fs-5">Contact</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <div style="position: fixed; top: 20px; right: 20px;">
+                <a href="index.html">
+                  <button class="hover-button">Go to Landing Page</button>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation Ends -->
+
+    <!-- Hero section starts -->
+    <div class="hero">
+      <img
+        src="./assets/images/ice-creamshop.jpg"
+        alt="Ice Cream Shop"
+        class="hero-image"
+      />
+    </div>
+    <!-- Hero section ends -->
+
+    <!-- About section starts -->
+    <section class="about-section text-center">
+      <div class="container">
+        <h2 class="mb-4">About Us</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8 about-text">
+            <h4>Welcome to dhi-iceCream!</h4>
+            <p>Where every scoop tells a story and every visit is a celebration of flavor.</p>
+            
+            <p>
+              Founded in 1989, dhi-iceCream began as a dream shared by ice cream enthusiasts who wanted to create a haven for those who cherish the simple pleasures of life. Our passion for ice cream goes beyond just crafting delicious treats; it’s about creating lasting memories and moments of joy. From our humble beginnings in a small shop to becoming a beloved destination, our journey has been filled with laughter, creativity, and a whole lot of ice cream!
+            </p>
+            
+            <h4><b>Our Craft</b></h4>
+            <p>
+              At dhi-iceCream, we believe that great ice cream starts with great ingredients. That’s why we prioritize sourcing only the freshest, highest-quality ingredients, from local farms to artisanal suppliers. Each batch is handcrafted in small quantities to ensure the perfect texture and flavor. Our diverse range of flavors – from timeless classics like Vanilla and Chocolate to innovative creations like Mango Chili Sorbet and Lavender Honey – caters to every palate and whim.
+            </p>
+
+            <h4><b>Our Commitment</b></h4>
+            <p>
+              We are dedicated to sustainability and community engagement. We strive to minimize our environmental footprint by using eco-friendly packaging and supporting local farmers. Our team is passionate about giving back, whether it’s through partnerships with local charities or hosting community events. We believe in the power of ice cream to bring people together, and we’re committed to making a positive impact in our community.
+            </p>
+
+            <h4><b>Join Us</b></h4>
+            <p>
+              Whether you’re enjoying a scoop on a hot summer day, indulging in a sundae with friends, or picking up a cake for a special occasion, we’re here to make every moment a little sweeter. We invite you to visit one of our locations, explore our menu online, or follow us on social media to stay updated on our latest flavors, events, and promotions.
+            </p>
+
+            <h4><b>Our Mission</b></h4>
+            <p>
+              To craft delightful, high-quality ice creams that bring joy and excitement to every customer, one scoop at a time.
+            </p>
+
+            <h4><b>Our Promise</b></h4>
+            <p>
+              At dhi-iceCream, we promise to deliver fresh, flavorful ice cream made with love, using premium ingredients and served with a smile. We are committed to creating a welcoming environment where everyone feels at home and every visit is a delightful experience.
+            </p>
+
+            <h2><b>We can’t wait to serve you!</b></h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section ends -->
+  
+    <!-- Footer section starts -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>About Us</h5>
+            <p>
+              We are a family-owned ice cream shop dedicated to crafting delicious, creamy treats with the finest ingredients. Join us at dhi-iceCream for a scoop of happiness in every cone!
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="/" class="text-white">Home</a></li>
+              <li><a href="about.html" class="text-white">About</a></li>
+              <li><a href="contact.html" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Contact Us</h5>
+            <ul class="list-unstyled">
+              <li>
+                <i class="bi bi-geo-alt-fill me-2"></i>Elm Street, Springfield, United States 62704
+              </li>
+              <li><i class="bi bi-telephone-fill me-2"></i>6890773530</li>
+              <li>
+                <i class="bi bi-envelope-fill me-2"></i>icecream@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2024 Ice Cream Shop. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section ends -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+  </script>
+
+<!--Closing body and html tags-->
 </body>
 </html>
